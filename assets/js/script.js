@@ -16,3 +16,10 @@ $(function(){
  
 });
 
+//Nav 
+$(window).scroll(function() {
+    if ($(this).scrollTop() >= 715){
+        $('nav').addClass("bg-dark");
+    }
+    
+});
