@@ -16,10 +16,11 @@ $(function(){
  
 });
 
-//Nav 
+
 $(window).scroll(function() {
-    if ($(this).scrollTop() >= 715){
+    if ($(this).scrollTop() >= 715) {
         $('nav').addClass("bg-dark");
+    } else { ($(this).scrollTop() <= 715) 
+        $('nav').removeClass("bg-dark");
     }
-    
 });
