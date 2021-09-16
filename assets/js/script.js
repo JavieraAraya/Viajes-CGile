@@ -1,3 +1,4 @@
+//Smooth Scrolling.
 $(function(){
   
     $("a").click(function(event){
